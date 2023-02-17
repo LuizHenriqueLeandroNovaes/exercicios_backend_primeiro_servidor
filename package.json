@@ -1,0 +1,31 @@
+{
+  "name": "meu-primeiro-servidor",
+  "version": "0.0.1",
+  "description": "Esse projeto foi desenvolvido na aula de primeiro servidor da Cubos Academy.",
+  "main": "./02/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon ./01/index.js",
+    "dev2" : "nodemon ./02/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizHenriqueLeandroNovaes/exercicios-backend-primeiro-servidor.git"
+  },
+  "keywords": [
+    "node",
+    "javascrip",
+    "npm"
+  ],
+  "author": "Luiz Novaes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizHenriqueLeandroNovaes/exercicios-backend-primeiro-servidor/issues"
+  },
+  "homepage": "https://github.com/LuizHenriqueLeandroNovaes/exercicios-backend-primeiro-servidor#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.20"
+  }
+}
